@@ -1,5 +1,5 @@
 # Run this file to regenerate pigeon files
-flutter pub run pigeon \
+dart run pigeon \
   --input pigeons/signalr_api.dart \
   --dart_out lib/signalr_api.dart \
   --objc_header_out ios/Classes/SignalrApi.h \
